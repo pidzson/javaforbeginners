@@ -1,3 +1,5 @@
+package Beginner;
+
 public class FirstClass {
 
     public static void main (String[] args){
@@ -46,7 +48,7 @@ public class FirstClass {
         System.out.println("Number of doors: " + numberOfDoors);
         System.out.println("Number of seats: " + numberOfSeats);
 
-        System.out.println("Conversions:");
+        //conversions
         short newNumberOfSeats = numberOfSeats;
         double newFuelConsumptionCombined = fuelConsumptionCombined;
         //widening: automatic; narrowing needs a (cast)
@@ -54,8 +56,6 @@ public class FirstClass {
         byte newPower = (byte) power
         power val is 362, newPower value is 106 --> byte values can range from -128 to +127, value overflow
          */
-
-
 
         System.out.println(" The new values (seats, consumption): " + newNumberOfSeats + ", " + newFuelConsumptionCombined);
 

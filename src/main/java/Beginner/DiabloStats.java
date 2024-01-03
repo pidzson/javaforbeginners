@@ -1,3 +1,5 @@
+package Beginner;
+
 public class DiabloStats {
 
     public static void main (String[] args){
@@ -49,7 +51,7 @@ public class DiabloStats {
         System.out.println("Critical modifiers: Damage: " + criticalHitDamage + "%, Chance: " + criticalHitChance + "%");
         System.out.println("Area damage modifier: " + areaDamage + "%");
         System.out.println("Cooldown reduction: " + cooldownReduction + "%");
-        System.out.println("Max healtpool: " + maxLife);
+        System.out.println("Max healthpool: " + maxLife);
         System.out.println("Health regen per second: " + healPerSecond);
         System.out.println("Armor value: " + armorValue);
         System.out.println("Max spellcasting resource reserve: " + maxResource +
